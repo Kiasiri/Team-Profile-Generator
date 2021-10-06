@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 
-function inquirerQ(questions) {
+function inquirerAsk(questions) {
   return new Promise(function (resolve, reject) {
     inquirer
       .prompt(questions)
@@ -12,4 +12,4 @@ function inquirerQ(questions) {
       });
   });
 }
-module.exports = inquirerQ;
+module.exports = inquirerAsk;
