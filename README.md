@@ -4,7 +4,7 @@
 
 ## Description
 
-It generates team cards from user input
+A program that generates team cards from user input using inquirer and fs.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ clone from github and npm init
 
 ## Usage
 
-run index.js with node
+Run index.js with node.
 
 ## License
 
@@ -31,7 +31,7 @@ This project is covered under the MIT license.
 
 ## Tests
 
-Run the test files using jest
+Run the test files using npm test.
 
 ## Questions
 
