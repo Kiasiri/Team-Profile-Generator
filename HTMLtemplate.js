@@ -4,7 +4,7 @@ const buildTemplate = (manager, intern, engineer) => {
   manager.forEach((manager) => {
     data = `<div class="col-lg-12">
       <div class="card d-flex mx-auto" style="margin-top: 30px; width: 18rem; box-shadow: 5px 5px 3px grey">
-            <div class="card-body bg-primary text-center">
+            <div class="card-body bg-success text-center">
               <h1 class="card-title" style="font-size: 2rem; color: white">${manager.name}</h1>
               <p class="card-text" style="font-size: 1.25rem; color: white"><i class="fas fa-tasks"></i> ${manager.role}</p>
             </div>
@@ -24,19 +24,19 @@ const buildTemplate = (manager, intern, engineer) => {
     data = `<div
       class="card d-flex"
       style="
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
         width: 18rem;
-        box-shadow: 5px 5px 3px grey;
+        box-shadow: 5px 5px 5px black;
       "
     >
-      <div class="card-body bg-primary text-center">
+      <div class="card-body bg-warning text-center">
         <h1 class="card-title" style="font-size: 2rem; color: white">
           ${engineer.name}
         </h1>
         <p class="card-text" style="font-size: 1.25rem; color: white">
-          <i class="fas fa-briefcase"></i> ${engineer.role}
+          <i class="fas fa-tv"></i> ${engineer.role}
         </p>
       </div>
       <div class="card-body" style="background-color: rgb(231, 229, 229)">
@@ -66,7 +66,7 @@ const buildTemplate = (manager, intern, engineer) => {
           ${intern.name}
         </h1>
         <p class="card-text" style="font-size: 1.25rem; color: white">
-          <i class="fas fa-glasses"></i> ${intern.role}
+          <i class="fa-solid fa-computer-classic"></i> ${intern.role}
         </p>
       </div>
       <div class="card-body" style="background-color: rgb(231, 229, 229)">
