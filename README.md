@@ -28,7 +28,7 @@ Run index.js with node.
 This project is covered under the MIT license.
 
 ## Video
-
+https://watch.screencastify.com/v/kP4Pb08ccUr9xqxPD8Lx
 ## Tests
 
 Run the test files using npm test.
